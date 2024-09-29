@@ -1,3 +1,320 @@
-body{
-    font-family: ;
-}
+/* global */
+/* global */
+/* global */
+/* global */
+/* global */
+/* global */
+html {
+    cursor: url(cursor.png), auto;
+    }
+      
+    body {
+    font-family: 'SIMSUN', Times, serif;
+    font-size: 13px;
+    background-color: #fff;
+    background-repeat: repeat;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5vh;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: .25rem;
+    cursor: url(cursor.png), auto;
+    }
+    ::selection {
+    color: #fff;
+    background: #252525;
+    }
+    ::-webkit-scrollbar { 
+    width: 5px; 
+    } 
+    ::-webkit-scrollbar-track { 
+    background: none;
+    } 
+    ::-webkit-scrollbar-thumb { 
+    background: #252525; 
+    } 
+    ::-webkit-scrollbar-thumb:hover { 
+    background: #252525; 
+    }
+    hr {
+    border: none;
+    border-top: 1px dashed #252525;
+    background: none;
+    margin: 10px;
+    }
+    ul {
+    text-indent: 1.5rem;
+    line-height: 1.5rem;
+    }
+    a:link, a:visited {
+    color: #242015;
+    border-bottom: 1px dotted;
+    }
+    a {
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    }
+    a:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    background: #252525;
+    color: #fff;
+    }
+    /*index*/
+    /*index*/
+    /*index*/
+    /*index*/
+    /*index*/
+    /*index*/
+    .index {
+    margin: auto;
+    margin-top: 24vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    }
+    .margin {
+    margin: auto;
+    margin-top: 15vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    }
+    .margin2 {
+    margin: auto;
+    margin-top: 1vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    }
+    /*about*/
+    /*about*/
+    /*about*/
+    /*about*/
+    /*about*/
+    /*about*/
+    .about {
+    margin: auto;
+    margin-top: 5vh;
+    width: 860px;
+    justify-content: center;
+
+    }
+    .about2 {
+    margin: auto;
+    margin-top: 10vh;
+    width: 860px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px 360px; 
+    }
+    .container-left img {
+    float: left;
+    width: 500px;
+    height: auto;
+    }
+    .container-right {
+    float: right;
+    width: 360px;
+    line-height: .8rem;
+    }
+    .diary-container-left img {
+    float: left;
+    width: 500px;
+    line-height: .8rem;
+    }
+    .diary-container-right img {
+    float: right;
+    width: 360px;
+    height: auto;
+    }
+    .updates {
+    border: 1px #252525 dashed;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    }
+    /*diary*/
+    /*diary*/
+    /*diary*/
+    /*diary*/
+    /*diary*/
+    /*diary*/
+    .diary {
+    padding: 20px;
+    border: 1px #252525 dashed;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 8vh;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    line-height: .8rem;
+    height: 600px;
+    }
+    .diary img {
+    width: 100%;
+    }
+    .diarybox {
+    width: 100%;
+    height: 555px;
+    border: 1px #252525 dashed;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    line-height: .8rem;
+    padding-top: 10px;
+    }
+    summary {
+    font-weight: bold;
+    line-height: 1rem;
+    }
+    /*photos*/
+    /*photos*/
+    /*photos*/
+    /*photos*/
+    /*photos*/
+    /*photos*/
+    .photos {
+    font-family: 'SIMSUN', Times, serif;
+    font-size: 13px;
+    background-color: #fff;
+    background-repeat: repeat;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: .85rem;
+    cursor: url(assets/img/cursor.png), auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    }
+    .photosgrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr; 
+    }
+    .photogrid {
+    width: 570px;
+    }
+    .photogrid img {
+    width: 570px;
+    height: auto;
+    margin: 1rem;
+    border: 1px dashed #252525;
+    }
+    .gb {
+    font-family: 'SIMSUN', Times, serif;
+    font-size: 13px;
+    background-color: #fff;
+    background-repeat: repeat;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
+    margin-top: 5vh;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: .85rem;
+    cursor: url(cursor.png), auto;
+    }
+    .free {
+    font-family: 'SIMSUN', Times, serif;
+    font-size: 13px;
+    background-color: #fff;
+    background-repeat: repeat;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: .85rem;
+    cursor: url(cursor.png), auto;
+    overflow: hidden;
+    }
+    .free2 {
+    font-family: 'SIMSUN', Times, serif;
+    font-size: 13px;
+    background-color: #fff;
+    background-repeat: repeat;
+    color: #252525;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    flex-direction: column;
+    padding: 1rem;
+    line-height: .85rem;
+    cursor: url(cursor.png), auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    }
+    .toko img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 500px;
+    width: auto;
+    }
+    .buttons-container {
+    padding: 10px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+    width: 600px;
+    height: 800px;
+    }
+    .buttons-container a {
+    border-bottom: none;
+    }
+    /*music*/
+    /*music*/
+    /*music*/
+    /*music*/
+    /*music*/
+    /*music*/
+    .music {
+    display: grid;
+    line-height: .85rem;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr; 
+    }
+    .musicbox {
+    width: 555px;
+    margin: 1rem;
+    border: 1px dashed #252525;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr; 
+    padding: 10px;
+    }
+    .embed {
+    width: 320px;
+    height: auto;
+    float: left;
+    }
+    .musicdesc {
+    width: auto;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    float: right;
+    }
